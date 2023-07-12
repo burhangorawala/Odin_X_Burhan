@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    
-   <div id="container">
-    <h1>ROCK PAPER SCISSORS </h1>
+    <link rel="stylesheet" href="style.css">
 
-    <button onclick="playround("rock")">ROCK</button>
-   </div>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>ROCK PAPER SCISSORS </h1>
+
+        <button onclick="playround('rock')">ROCK</button>
+        <button onclick="playround('paper')">PAPER</button>
+        <button onclick="playround('scissors')">SCISSORS</button>
+        <div id="computerChoice"></div>
+        <div id="result"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

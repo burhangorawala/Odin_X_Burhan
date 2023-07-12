@@ -1,0 +1,17 @@
+#container {
+  background-color: red;
+
+  text-align: center;
+}
+
+#result {
+  padding-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#computerChoice {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 29px;
+}
