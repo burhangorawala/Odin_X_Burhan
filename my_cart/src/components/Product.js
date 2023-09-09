@@ -2,8 +2,12 @@
 
 import React from 'react'
 
-export default function Product() {
+export default function Product(props) {
   return (
-    <div>Product</div>
+      <div className='row'>
+        <div className='col-6'>
+              <h2>{props.product.name}</h2>
+        </div>
+      </div>
   )
 }

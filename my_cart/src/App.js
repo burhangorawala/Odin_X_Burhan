@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import ProductsList from './components/ProductList.js'
 
 function App() {
-  const product = [
+  const productList = [
     {
       price: 99999,
       name: "iPhone 14",
@@ -19,9 +19,11 @@ function App() {
   return(
     <>
   <Navbar/>
-  <ProductsList product={product}/>
-  {/* <Footer/> */}
-
+  <main className="container mt-5">
+  <ProductsList productList={productList}/>
+  </main>
+  {/* <Footer/>  */}
+ 
   </>
   )
 };
